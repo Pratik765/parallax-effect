@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax effet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+        text-transform: capitalize;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      h2 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+      }
+      section {
+        width: 100vw;
+        height: 100vh;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("/img/img1.avif");
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        background-attachment: fixed;
+      }
+      .section2 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("/img/img2.jpg");
+        background-repeat: no-repeat;
+        block-size: 100vw auto;
+      }
+      .section3 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("/img/img3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+      }
+      .section4 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("/img/img4.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section1">
+      <div>
+        <h2>Parallex Effect</h2>
+        <p>Contact for source code</p>
+      </div>
+    </section>
+    <section class="section2">
+      <div>
+        <h2>Parallex Effect</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+    <section class="section3">
+      <div>
+        <h2>Parallex Effect</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+    <section class="section4">
+      <div>
+        <h2>Parallex Effect</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+  </body>
+</html>
